@@ -1,8 +1,8 @@
 
-#Resolução do Desáfio de Classes de um heroi
+# Resolução do Desáfio de Classes de um heroi
 Esse desafio foi um pouco desafiador para mim, tive que refazer algumas vezes para conseguir funcionar. Mas foi esse desafio que me fez aprender de verdade como utilizar classes e objetos. Vou explicar resumidamente a resolução.
 
-###Comecei criando uma classe que guardasse: nome, idade e tipo, exatamente dessa forma.
+### Comecei criando uma classe que guardasse: nome, idade e tipo, exatamente dessa forma.
 
 class heroi{
     constructor(nome, idade, tipo){
@@ -11,7 +11,7 @@ class heroi{
     this.tipo = tipo;
     }
 
-###Em seguida criei o objeto “atacar” para estrutura de decisão utilizando (switch, case), que visa apontar o tipo de ataque de cada herói, por exemplo: Se o mago atacar, ele utilizou mágia, de acordo com a resolução abaixo.
+### Em seguida criei o objeto “atacar” para estrutura de decisão utilizando (switch, case), que visa apontar o tipo de ataque de cada herói, por exemplo: Se o mago atacar, ele utilizou mágia, de acordo com a resolução abaixo.
 
 atacar(){
         let ataque;
@@ -32,7 +32,7 @@ atacar(){
                     ataque = 'usou um ataque superior';
                 
         }
-###Defeni o “console.log” para imprimir a frase utilizando a estrutura abaixo. Também criei mais quatro variáveis para guardar os dados dos heróis utilizando ‘new’. Em seguida pedi para imprimir quatro frases referente a cada herói e seu poder.
+### Defeni o “console.log” para imprimir a frase utilizando a estrutura abaixo. Também criei mais quatro variáveis para guardar os dados dos heróis utilizando ‘new’. Em seguida pedi para imprimir quatro frases referente a cada herói e seu poder.
 
 console.log(`O ${this.tipo} atacou usando ${ataque}`);
     
